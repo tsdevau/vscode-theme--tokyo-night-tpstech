@@ -28,6 +28,7 @@ export default {
     this.$store.dispatch("saveCapchaData", {
       capchaName: this.capchaName,
       data: code,
+      url,
     })
 
     this.core()

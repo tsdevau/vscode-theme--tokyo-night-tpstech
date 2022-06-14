@@ -1,7 +1,7 @@
 {
-  "name": "dark-plus-tokyo-nights-italic-combo",
-  "displayName": "Dark+ Tokyo Nights Italic Combo",
-  "description": "A clean VS Code theme combining standard Dark+ & Eva Tokyo Nights theme elements.",
+  "name": "dark-plus-eva-teal-italic-color-theme",
+  "displayName": "Dark+ Tokyo Nights Italic Teal",
+  "description": "A clean VS Code theme combining the standard Dark+ & Eva Tokyo Nights theme elements & italic syntax.",
   "version": "0.0.1",
   "publisher": "tpstech-dev",
   "license": "MIT",
@@ -13,16 +13,16 @@
     "clean"
   ],
   "icon": "icon.png",
-  "homepage": "https://github.com/jdold07/dark-plus-tokyo-nights-italic-combo",
+  "homepage": "https://github.com/jdold07/dark-plus-eva-teal-italic-color-theme",
   "repository": {
-    "url": "https://github.com/jdold07/dark-plus-tokyo-nights-italic-combo",
+    "url": "https://github.com/jdold07/dark-plus-eva-teal-italic-color-theme",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/jdold07/dark-plus-tokyo-nights-italic-combo/issues"
+    "url": "https://github.com/jdold07/dark-plus-eva-teal-italic-color-theme/issues"
   },
   "galleryBanner": {
-    "color": "#1f2335",
+    "color": "#282828",
     "theme": "dark"
   },
   "engines": {
@@ -35,9 +35,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark+ Tokyo Nights Italic Combo",
+        "label": "Dark+ Tokyo Nights Italic Teal",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-plus-tokyo-nights-italic-combo.jsonc"
+        "path": "./themes/dark-plus-eva-teal-italic-color-theme.json"
       }
     ]
   },

@@ -7,7 +7,8 @@ from dataclasses import dataclass
 
 model_14 = DataFrame
 
-x -> int
+x = int(1)
+
 
 class Car:
     class_attributes = "value"
@@ -28,12 +29,16 @@ print(f"Car details: {Car1.car_details()}")
 
 
 n = int(2.2)
-xxxx = list(2, 5, 746, 35, 87, 234, 654)
+xxxx = [2, 5, 746, 35, 87, 234, 654]
 
 
 def myfunc(n):
     return lambda x: x * n
 
+
+"""
+Docstring description / comment.  Looking to go darker green here.
+"""
 
 # doubler becomes the name of the otherwise anonymous lambda
 # so doubler literally becomes lambda x: x * 2
@@ -43,7 +48,6 @@ doubler = myfunc(2)  # => lambda x: x * 2
 # calling doubler in print then calls the lambda and assigns 2 to x
 # so becomes lambda 2 * 2, which implicitly returns the result of 4
 print(doubler(2))  # => 2 * 2 = 4
-
 
 url = "https://en.wikipedia.org/wiki/Algorithm"
 
@@ -94,8 +98,8 @@ player1.run()
 
 image = Image.open(r"C:\Users\pablo\OneDrive\Escritorio\remera.jpg")
 new_image = image.resize((28, 28))
-pred_probs = model_14.predict((new_image))
-print(pred_probs)
+# pred_probs = model_14.predict((new_image))
+print("pred_probs")
 "text string"
 
 tup = 1, 2, 3, 4
@@ -114,6 +118,7 @@ print(tup1, tup2, sep="\n")
 class Greet:
     greets: tuple
     nick: str
+
 
 x = "Hey Fuckers!"
 y = False
@@ -141,8 +146,8 @@ class IterGreets:
 
 greet_dbclick = Greet(nick="dbclick", greets=("Hi", "Hello", "Nice to meet you to"))
 
-for greet in IterGreets(greet_dbclick):
-    print(greet)
+# for greet in IterGreets(greet_dbclick):
+# print(greet)
 
 
 rows = [[1], [1, 1]]
