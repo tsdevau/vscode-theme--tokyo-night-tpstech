@@ -1,13 +1,13 @@
 # README
-## This is the README for your extension "tim"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+## tpstech.dev - "Dark+ Eva Teal Italic Color Theme"
+
+VS Code uses some stupid keyboard shortcuts previously outlined here, 2 of three are global shortcuts for MacOS and obviously can't be used ... `Cmd+Space` for example ... who doesn't have that assigned to Alfred or Spotlight!??
 
 ### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+- [Github Page](https://github.com/jdold07/dark-plus-eva-teal-italic-color-theme)
+
+### Other useful links
+
+- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
