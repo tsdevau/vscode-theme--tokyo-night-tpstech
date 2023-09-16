@@ -2,7 +2,7 @@
   "name": "tokyo-night-tpstech-color-theme",
   "displayName": "tpsTech Tokyo Night Themes",
   "description": "A clean VS Code theme based on Tokyo Night themes with some tweaks for contrast & syntax highlighting.",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "publisher": "tpstech.dev",
   "license": "MIT",
   "keywords": [
