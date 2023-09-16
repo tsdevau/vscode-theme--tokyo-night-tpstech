@@ -1,48 +1,63 @@
 {
-  "name": "dark-plus-eva-teal-italic-color-theme",
-  "displayName": "Dark+ Tokyo Nights Italic Teal",
-  "description": "A clean VS Code theme combining the standard Dark+ & Eva Tokyo Nights theme elements & italic syntax.",
-  "version": "0.0.2",
-  "publisher": "tpstech-dev",
+  "name": "tokyo-night-tpstech-color-theme",
+  "displayName": "tpsTech Tokyo Night Themes",
+  "description": "A clean VS Code theme based on Tokyo Night themes with some tweaks for contrast & syntax highlighting.",
+  "version": "0.1.2",
+  "publisher": "tpstech.dev",
   "license": "MIT",
   "keywords": [
-    "theme",
-    "italic",
+    "tokyo night",
+    "tokyonight",
     "dark",
-    "tokyo",
+    "constrast",
     "clean"
   ],
   "icon": "icon.png",
-  "homepage": "https://github.com/jdold07/dark-plus-eva-teal-italic-color-theme",
+  "homepage": "https://github.com/tsdevau/tokyo-night-tpstech-color-theme",
   "repository": {
-    "url": "https://github.com/jdold07/dark-plus-eva-teal-italic-color-theme",
+    "url": "https://github.com/tsdevau/tokyo-night-tpstech-color-theme",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/jdold07/dark-plus-eva-teal-italic-color-theme/issues"
+    "url": "https://github.com/tsdevau/tokyo-night-tpstech-color-theme/issues"
   },
   "galleryBanner": {
-    "color": "#282828",
+    "color": "#303030",
     "theme": "dark"
   },
   "engines": {
     "vscode": "^1.67.0"
   },
   "categories": [
-    "Themes",
-    "Other"
+    "Themes"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Dark+ Tokyo Nights Italic Teal",
+        "label": "Tokyo Night tpsTech Storm",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-plus-eva-teal-italic-color-theme.json"
+        "path": "./themes/tokyo-night-tpstech-storm-color-theme.json"
+      },
+      {
+        "label": "Tokyo Night tpsTech Inspired Teal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-night-tpstech-teal-color-theme.json"
+      },
+      {
+        "label": "Tokyo Night tpsTech Test",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-night-tpstech-test-color-theme.json"
       }
     ]
   },
   "scripts": {
     "package": "vsce package",
     "publish": "vsce publish"
+  },
+  "__metadata": {
+    "installedTimestamp": 1683853169058
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
   }
 }
