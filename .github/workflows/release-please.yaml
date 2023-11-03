@@ -1,0 +1,36 @@
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: release-please
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          package-name: tokyo-night-tsdevau
+          pull-request-title-pattern: "chore${scope}: 🔖 `tokyo-night-tsdevau` -> v${version}"
+          pull-request-header: ":robot: PR by release-please bot"
+          changelog-types: '[
+            { "type": "feat", "section": "Features & Additions" },
+            { "type": "perf", "section": "Performance Improvements" },
+            { "type": "style", "section": "Style & UX Improvements" },
+            { "type": "fix", "section": "Bug Fixes" },
+            { "type": "revert", "section": "Work in Progress" },
+            { "type": "wip", "section": "Work In Progress" },
+            { "type": "init", "section": "Work in Progress" },
+            { "type": "docs", "section": "Documentation" },
+            { "type": "refactor", "section": "Code & DX Improvements" },
+            { "type": "chore", "section": "General Config Updates" },
+            { "type": "build", "section": "General Config Updates" },
+            { "type": "test", "section": "Test Config Updates" },
+            { "type": "ci", "hidden": true }
+            ]'
