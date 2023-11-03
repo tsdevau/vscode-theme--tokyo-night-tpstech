@@ -1,7 +1,7 @@
 {
-  "name": "Tokyo Night Storm",
-  "author": "Enkia",
-  "maintainers": ["Enkia <enki77@gmail.com>"],
+  "name": "Tokyo Night tsdevau Test",
+  "author": "tsdevau",
+  "maintainers": ["tsdevau <github@tsdev.au>"],
   "type": "dark",
   "semanticTokenColors": {
     "parameter.declaration": {
@@ -29,7 +29,7 @@
       "foreground": "#c0caf5"
     }
   },
-  "semanticClass": "tokyo-night-storm",
+  "semanticClass": "tokyo-night-tsdevau-test",
   "colors": {
     "foreground": "#c0caf5",
     "descriptionForeground": "#545c7e",

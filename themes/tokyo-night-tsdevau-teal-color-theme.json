@@ -1,6 +1,11 @@
 {
-  "name": "Dark+ Eva Teal Italic Theme",
+  "name": "Tokyo Might tsdevau Teal",
   "type": "dark",
+  "maintainers": {
+    "name": "tsdevau",
+    "email": "github@tsdev.au"
+  },
+  "author": "tsdevau",
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "enumMember": {
@@ -529,12 +534,7 @@
     },
     {
       "name": "Functions",
-      "scope": [
-        "entity.name.function",
-        "meta.require",
-        "support.function.any-method",
-        "variable.function"
-      ],
+      "scope": ["entity.name.function", "meta.require", "support.function.any-method", "variable.function"],
       "settings": {
         "foreground": "#60a5fa"
       }
@@ -1369,10 +1369,7 @@
     },
     {
       "name": "styling css pseudo-elements/classes to be able to differentiate from classes which are the same colour",
-      "scope": [
-        "entity.other.attribute-name.pseudo-element",
-        "entity.other.attribute-name.pseudo-class"
-      ],
+      "scope": ["entity.other.attribute-name.pseudo-element", "entity.other.attribute-name.pseudo-class"],
       "settings": {
         "foreground": "#c084fc"
       }
@@ -1595,11 +1592,7 @@
     },
     {
       "name": "Markdown underscore-style headers",
-      "scope": [
-        "entity.name.label.cs",
-        "markup.heading.setext.1.markdown",
-        "markup.heading.setext.2.markdown"
-      ],
+      "scope": ["entity.name.label.cs", "markup.heading.setext.1.markdown", "markup.heading.setext.2.markdown"],
       "settings": {
         "foreground": "#7dd3fc"
       }
