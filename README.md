@@ -1,4 +1,4 @@
-# tpsTech Tokyo Night Themes
+# tsdevau Tokyo Night Inspired Themes
 
 ### VSCode Colour Theme
 
@@ -6,7 +6,7 @@ A clean VS Code theme based on Tokyo Night themes with some tweaks for contrast 
 
 ### For more information
 
-- [Github Page](https://github.com/tsdevau/vscode-theme--tokyonight-tpstech)
+- [Github Page](https://github.com/tsdevau/vscode-theme--tokyo-night-tpstech)
 
 ### Other useful links
 
