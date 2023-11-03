@@ -1,10 +1,11 @@
 {
-  "name": "tokyo-night-tpstech-color-theme",
-  "displayName": "tpsTech Tokyo Night Themes",
-  "description": "A clean VS Code theme based on Tokyo Night themes with some tweaks for contrast & syntax highlighting.",
+  "name": "tokyo-night-tsdevau-color-theme",
+  "displayName": "tsdevau Tokyo Night Themes",
   "version": "0.2.0",
-  "publisher": "tpstech.dev",
-  "license": "MIT",
+  "description": "A clean VS Code theme based on Tokyo Night themes with some tweaks for contrast & syntax highlighting.",
+  "categories": [
+    "Themes"
+  ],
   "keywords": [
     "tokyo night",
     "tokyonight",
@@ -12,52 +13,57 @@
     "constrast",
     "clean"
   ],
-  "icon": "icon.png",
-  "homepage": "https://github.com/tsdevau/tokyo-night-tpstech-color-theme",
-  "repository": {
-    "url": "https://github.com/tsdevau/tokyo-night-tpstech-color-theme",
-    "type": "git"
-  },
+  "homepage": "https://github.com/tsdevau/vscode-theme--tokyo-night-tpstech",
   "bugs": {
-    "url": "https://github.com/tsdevau/tokyo-night-tpstech-color-theme/issues"
+    "url": "https://github.com/tsdevau/vscode-theme--tokyo-night-tpstech/issues"
   },
-  "galleryBanner": {
-    "color": "#303030",
-    "theme": "dark"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsdevau/vscode-theme--tokyo-night-tpstech"
   },
-  "engines": {
-    "vscode": "^1.67.0"
+  "license": "MIT",
+  "author": {
+    "name": "tsdevau",
+    "email": "github@tsdev.au"
   },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Tokyo Night tpsTech Storm",
-        "uiTheme": "vs-dark",
-        "path": "./themes/tokyo-night-tpstech-storm-color-theme.json"
-      },
-      {
-        "label": "Tokyo Night tpsTech Inspired Teal",
-        "uiTheme": "vs-dark",
-        "path": "./themes/tokyo-night-tpstech-teal-color-theme.json"
-      },
-      {
-        "label": "Tokyo Night tpsTech Test",
-        "uiTheme": "vs-dark",
-        "path": "./themes/tokyo-night-tpstech-test-color-theme.json"
-      }
-    ]
-  },
+  "publisher": "tsdevau",
   "scripts": {
     "package": "vsce package",
     "publish": "vsce publish"
   },
-  "__metadata": {
-    "installedTimestamp": 1683853169058
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tokyo Night tsdevau Storm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-night-tsdevau-storm-color-theme.json"
+      },
+      {
+        "label": "Tokyo Night tsdevau Inspired Teal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-night-tsdevau-teal-color-theme.json"
+      },
+      {
+        "label": "Tokyo Night tsdevau Test",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-night-tsdevau-test-color-theme.json"
+      }
+    ]
   },
   "devDependencies": {
-    "standard-version": "^9.5.0"
+    "eslint": "~8.52.0",
+    "prettier": "~3.0.3",
+    "prettier-plugin-packagejson": "2.4.6"
+  },
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#303030",
+    "theme": "dark"
+  },
+  "__metadata": {
+    "installedTimestamp": 1683853169058
   }
 }
