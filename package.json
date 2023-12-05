@@ -1,7 +1,7 @@
 {
   "name": "tokyo-night-tsdevau-color-theme",
   "displayName": "tsdevau Tokyo Night Themes",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "A clean VS Code theme based on Tokyo Night themes with some tweaks for contrast & syntax highlighting.",
   "categories": [
     "Themes"
