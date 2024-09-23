@@ -1,11 +1,6 @@
 {
-  "name": "Tokyo Might tsdevau Teal",
+  "name": "Dark+ Eva Teal Italic Theme",
   "type": "dark",
-  "maintainers": {
-    "name": "tsdevau",
-    "email": "github@tsdev.au"
-  },
-  "author": "tsdevau",
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "enumMember": {
@@ -1671,14 +1666,12 @@
     "sideBarSectionHeader.border": "#71717a",
     "sideBarTitle.foreground": "#f4f4f5",
     // "list.inactiveSelectionBackground": "#3f3f46",
-    "list.inactiveSelectionForeground": "#f4f4f566",
+    // "list.inactiveSelectionForeground": "#f4f4f566",
     "list.hoverBackground": "#71717a11",
     "list.hoverForeground": "#f4f4f5",
-    "list.activeSelectionBackground": "#71717a",
+    "list.activeSelectionBackground": "#3f3f46", // "#71717a"
     "list.activeSelectionForeground": "#f4f4f5",
     "tree.indentGuidesStroke": "#f4f4f566",
-    "list.dropBackground": "#3f3f46",
-    "list.highlightForeground": "#0d9488",
     "list.focusBackground": "#607d8b66",
     "list.focusForeground": "#e4e4e7",
     "listFilterWidget.background": "#27272a",
@@ -1713,9 +1706,9 @@
     "button.secondaryForeground": "#e4e4e7",
     "button.secondaryBackground": "#71717a",
     "button.secondaryHoverBackground": "#525252",
-    "input.background": "#71717a",
-    // "input.border": "#00000000",
+    "input.background": "#71717a", // "#3f3f46"
     "input.foreground": "#f4f4f5",
+    // "input.border": "#00000000",
     "inputOption.activeBackground": "#115e59",
     // "inputOption.activeBorder": "#007acc00",
     "inputOption.activeForeground": "#f4f4f5",
